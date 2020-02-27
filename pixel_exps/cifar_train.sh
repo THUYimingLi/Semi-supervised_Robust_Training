@@ -1,0 +1,1 @@
+python train.py --dataset CIFAR --epochs 120 --schedule 75 90 100 --gamma 0.1 --lr 0.05 --checkpoint checkpoints/CIFAR10/SRT --gpu-id 0 --train-batch 128 --lambada 1.0 --nlabel 10000 --epsilon 0.031 --step-size 0.007 --norm 'l_inf' --num-step 10 --IsSemi

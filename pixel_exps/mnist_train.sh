@@ -1,0 +1,1 @@
+python train.py --dataset MNIST --epochs 100 --schedule 55 75 90 --lr 0.01 --gamma 0.1 --checkpoint checkpoints/MNIST/SRT --gpu-id 0 --train-batch 128 --lambada 1.0 --nlabel 10000 --epsilon 0.3 --step-size 0.01 --norm 'l_inf' --num-step 40 --IsSemi

@@ -1,0 +1,77 @@
+{
+    "attack": {
+        "epsilon": 8.0,
+        "grid_granularity": [
+            5,
+            5,
+            31
+        ],
+        "loss_function": "xent",
+        "num_steps": 5,
+        "random_start": false,
+        "random_tries": 10,
+        "spatial_limits": [
+            3,
+            3,
+            30
+        ],
+        "spatial_method": "random",
+        "step_size": 2.0,
+        "use_kl": false,
+        "use_linf": false,
+        "use_spatial": true
+    },
+    "data": {
+        "data_path": "checkpoints/datasets/cifar-10-batches-py"
+    },
+    "eval": {
+        "adversarial_eval": true,
+        "batch_size": 128,
+        "num_eval_examples": 10000,
+        "st_adv": false
+    },
+    "model": {
+        "filters": [
+            16,
+            16,
+            32,
+            64
+        ],
+        "output_dir": "checkpoints/adv_cifar_srtd",
+        "pad_mode": "constant",
+        "pad_size": 32
+    },
+    "training": {
+        "adversarial_training": true,
+        "batch_size": 128,
+        "data_augmentation": true,
+        "eval_during_training": true,
+        "max_num_training_steps": 80000,
+        "momentum": 0.9,
+        "np_random_seed": 993101,
+        "num_checkpoint_steps": 4000,
+        "num_eval_steps": 500,
+        "num_output_steps": 100,
+        "num_summary_steps": 100,
+        "partial": true,
+        "step_size_schedule": [
+            [
+                0,
+                0.1
+            ],
+            [
+                40000,
+                0.01
+            ],
+            [
+                60000,
+                0.001
+            ]
+        ],
+        "tf_random_seed": 557212,
+        "unlabel": 1.0,
+        "unsupervised": "semi",
+        "unsupervised_lambda": 0.2,
+        "weight_decay": 0.0002
+    }
+}

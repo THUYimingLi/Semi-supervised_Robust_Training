@@ -1,0 +1,10 @@
+matplotlib
+numpy
+opencv-python
+scikit-image
+scipy
+tensorflow-gpu==1.12.0
+tensorboard==1.12.0
+tqdm
+idx2numpy
+stadv
