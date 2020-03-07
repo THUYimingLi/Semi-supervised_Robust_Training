@@ -1,5 +1,5 @@
 """
-Code for CVPR 2020, submission 4661: Toward Adversarial Robustness via Semi-supervised Robust Training
+Code for Toward Adversarial Robustness via Semi-supervised Robust Training
 """
 
 import os
