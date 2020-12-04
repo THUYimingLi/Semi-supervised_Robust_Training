@@ -2,6 +2,17 @@
 A repository that implements the semi-supervised robust training (SRT)  proposed in "Toward Adversarial Robustness via Semi-supervised Robust Training". [[arXiv]](https://arxiv.org/abs/2003.06974) 
 This project is developed based on Python 3.6, created by [Yiming Li](http://liyiming.tech/) and [Yan Feng](http://yanfeng0096.com/). 
 
+# Citation
+If our work is useful for your research, please cite our paper as follows:
+```
+@article{li2020toward,
+  title={Toward Adversarial Robustness via Semi-supervised Robust Training},
+  author={Li, Yiming and Wu, Baoyuan and Feng, Yan and Fan, Yanbo and Jiang, Yong and Li, Zhifeng and Xia, Shutao},
+  journal={arXiv preprint arXiv:2003.06974},
+  year={2020}
+}
+```
+
 
 # Pixel-wise experiments
 All code for this part are included in "pixel_exps" subfolder. Please change to that folder before running the code.
