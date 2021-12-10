@@ -1,15 +1,17 @@
 
-A repository that implements the semi-supervised robust training (SRT)  proposed in [Toward Adversarial Robustness via Semi-supervised Robust Training](https://arxiv.org/abs/2003.06974). 
+This is the official implementation of our paper [Semi-supervised Robust Training with Generalized Perturbed Neighborhood](https://www.sciencedirect.com/science/article/pii/S0031320321006488), accepted by the Pattern Recognition. 
 This project is developed based on Python 3.6, created by [Yiming Li](http://liyiming.tech/) and [Yan Feng](http://yanfeng0096.com/). 
 
 # Citation
 If our work is useful for your research, please cite our paper as follows:
 ```
-@article{li2020toward,
-  title={Toward Adversarial Robustness via Semi-supervised Robust Training},
-  author={Li, Yiming and Wu, Baoyuan and Feng, Yan and Fan, Yanbo and Jiang, Yong and Li, Zhifeng and Xia, Shutao},
-  journal={arXiv preprint arXiv:2003.06974},
-  year={2020}
+@article{li2021semi,
+  title={Semi-supervised Robust Training with Generalized Perturbed Neighborhood},
+  author={Li, Yiming and Wu, Baoyuan and Feng, Yan and Fan, Yanbo and Jiang, Yong and Li, Zhifeng and Xia, Shu-Tao},
+  journal={Pattern Recognition},
+  pages={108472},
+  year={2021},
+  publisher={Elsevier}
 }
 ```
 
