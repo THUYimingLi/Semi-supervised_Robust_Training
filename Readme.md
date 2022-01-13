@@ -1,5 +1,5 @@
 
-This is the official implementation of our paper [Semi-supervised Robust Training with Generalized Perturbed Neighborhood](https://www.sciencedirect.com/science/article/pii/S0031320321006488), accepted by the Pattern Recognition. 
+This is the official implementation of our paper [Semi-supervised Robust Training with Generalized Perturbed Neighborhood](https://www.sciencedirect.com/science/article/pii/S0031320321006488), accepted by [Pattern Recognition](https://www.journals.elsevier.com/pattern-recognition). 
 This project is developed based on Python 3.6, created by [Yiming Li](http://liyiming.tech/) and [Yan Feng](http://yanfeng0096.com/). 
 
 
@@ -92,12 +92,13 @@ the robustness evaluation without training.
 # Reference
 If our work or this repo is useful for your research, please cite our paper as follows:
 ```
-@article{li2021semi,
-  title={Semi-supervised Robust Training with Generalized Perturbed Neighborhood},
+@article{li2022semi,
+  title={Semi-supervised robust training with generalized perturbed neighborhood},
   author={Li, Yiming and Wu, Baoyuan and Feng, Yan and Fan, Yanbo and Jiang, Yong and Li, Zhifeng and Xia, Shu-Tao},
   journal={Pattern Recognition},
+  volume={124},
   pages={108472},
-  year={2021},
+  year={2022},
   publisher={Elsevier}
 }
 ```
